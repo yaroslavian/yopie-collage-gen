@@ -1,0 +1,32 @@
+
+	div#viewer { position: absolute; top:10px; left:10px; width: 765px; min-height: 765px; height:auto; border: 2px solid gray; }
+	div#toolbar { position: absolute; top: 10px; left:785px; width:400px; height:400px; border: 2px solid red; padding: 10px; }
+	div#result-code { position:absolute; top: 690px; left:785px; width: 400px; min-height:400px; height:auto; background-color:#DFDFDF; border:2px solid #000;}
+	div#import-dialog { position:absolute; top: 450px; left: 785px; height:200px; width: 400px; border:2px solid #0099ff; padding:10px;}
+
+
+	.colage-div {display: inline; position:relative; margin:10px; float:left; }
+	div.colage-div { background-color: red;}
+	div.selected-div { /* border:2px solid green; */ background-color: #4CD74C;}
+	img.colage-div { opacity: 0.5; }
+	img.selected-div { opacity: 1;}
+
+
+
+
+	/* Form Fields And Buttons */
+
+	button { margin: 10px;}
+
+	#add-div-button { margin:10px;}
+	#selected-div-width {   }
+	#selected-div-height {   }
+	#clear-all-button { }
+	#apply-button {   }
+	input#div-selected-url { }
+	input#div-selected-href { }
+
+
+
+	/* IMPORT DIALOG */
+	div#import-dialog > form > textarea { width:300px; height:120px;  }

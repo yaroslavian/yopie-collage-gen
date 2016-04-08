@@ -1,0 +1,58 @@
+<html>
+<head>
+	<script src="libs/jquery-1.11.3.min.js"></script>
+	<!-- <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+
+	<script src="collage-gen.js"></script>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css"/>
+	<style>	</style>
+</head>
+<body>
+
+<div id="toolbar">
+<form>
+<button type="button" id="add-div-button">ADD DIV</button>
+<button type="button" id="remove-selected-div-button">REMOVE DIV</button>
+<button type="button" id="deselect-button">DESELECT</button>
+<button type="button" id="clear-all-button">CLEAR ALL</button><br />
+<div> Width:  <input type="text" id="div-selected-width" value="40"> </div> <br />
+<div> Height: <input type="text" id="div-selected-height" value="40"></div><br />
+<div>Keep proportions: <input type="checkbox" id="selected-div-keep-proportion"> </div> <br />
+<div> URL: <input type="text" id="div-selected-url" value=""></div><br />
+<div> HREF: <input type="text" id="div-selected-href" value=""></div><br />
+<div><select id="float-select">
+  <option value="1">Left</option>
+  <option value="">Right</option>
+</select>
+
+
+<button type="button" id="switch-prev">&lt;</button><button type="button" id="switch-next">&gt;</button></div>
+
+<button type="button" id="apply-button">Apply</button>
+
+</form>
+
+</div>
+
+
+<div id="viewer"></div>
+
+<div id="result-code"></div>
+
+
+<div id="import-dialog">
+<h2>Импортировать HTML код </h2>
+<form name="import1">
+	<textarea id="import1-html"></textarea>
+	<button type="button" id="import1-button">IMPORT</button>
+</form>
+
+</div>
+
+
+
+</body>
+</html>
+
+<script></script>
